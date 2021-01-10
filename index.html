@@ -9,6 +9,8 @@
     <link rel="shortcut icon" type="image/png" href="assets/S.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b96c0bdec5.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
@@ -16,9 +18,9 @@
 <body>
     <section class="pannel-1" style="height: 990px;">
         <div class="presentation">
-            <h1 data-aos="fade-right">Bonjour, <br> Je suis Sacha <br> Développeur Web
+            <h1 data-aos="fade-right">Bonjour, <br> Je suis Sacha <br> Développeur Full Stack
             </h1>
-            <p class="sub-presentation" data-aos="fade-left"> HTML / CSS / Angular / Ionic </p>
+            <p class="sub-presentation" data-aos="fade-left"> REACT / ANGULAR / NODEJS </p>
         </div>
         <div>
             <img data-aos="fade-up-left" class="profil" src="assets/profil copie.png" alt="">
@@ -42,7 +44,7 @@
                 <p> A l'issue de ma premiere année à Epitech, j'ai effectué un stage professionnel de 6 mois au sein de la société Phenix Groupe. Cette expérience passionnante et enrichissante m'a permis de développer de nouvelles compétences et d'acquérir
                     une méthode de travail en entreprise. </p>
                 <p>Etudiant ambitieux, déterminé et rigoureux, actuellement en 3ème année à Epitech Paris,
-                    <span class="search">je suis à la recherche d'une alternance de 8 mois (contrat d'apprentissage) en développement Web à partir du mois de Janvier 2021 (3 jours par semaine en entreprise).</span></p>
+                    <span class="search">je suis à la recherche d'une alternance de 8 mois (contrat d'apprentissage) en tant que développeur FULL STACK à partir du mois de Janvier 2021 (3 jours par semaine en entreprise).</span></p>
             </div>
         </div>
     </section>
@@ -76,10 +78,6 @@
                         <h3>JavaScript</h3>
                     </div>
                     <div class="item">
-                        <img class="item-skill" src="assets/ionic.png">
-                        <h3>Ionic</h3>
-                    </div>
-                    <div class="item">
                         <img class="item-skill" src="assets/Angular.png">
                         <h3>Angular</h3>
                     </div>
@@ -88,8 +86,16 @@
                         <h3>React</h3>
                     </div>
                     <div class="item">
+                        <img class="item-skill-react" src="assets/nodejs.svg">
+                        <h3>NodeJS</h3>
+                    </div>
+                    <div class="item">
                         <img class="item-skill" src="assets/flutter.svg">
                         <h3>Flutter</h3>
+                    </div>
+                    <div class="item">
+                        <img class="item-skill" src="assets/ionic.png">
+                        <h3>Ionic</h3>
                     </div>
                 </div>
                 <div class="skills">
@@ -121,30 +127,52 @@
             </div>
         </div>
         <div class="row">
+            <h2 data-aos="flip-left" style="margin-top:10rem; margin-left: 10em;">
+                <span>P</span>
+                <span>R</span>
+                <span>O</span>
+                <span>J</span>
+                <span>E</span>
+                <span>T</span>
+                <span>S</span>
+            </h2>
             <div class="col-xs-12 col-lg-8 col-lg-offset-2">
-                <h2 data-aos="flip-left" style="margin-top:23rem">
-                    <span>P</span>
-                    <span>R</span>
-                    <span>O</span>
-                    <span>J</span>
-                    <span>E</span>
-                    <span>T</span>
-                    <span>S</span>
-                </h2>
+
                 <div class="projects">
-                    <div class="project-1" data-aos-anchor-placement="top-center">
-                        <a href="https://jammsongg.000webhostapp.com/"><img src="assets/jamm-bg.png" alt=""></img>
-                        </a>
-                    </div>
-                    <div class="project-2" data-aos-anchor-placement="top-center">
-                        <a href="http://www.cvssaid.website/">
-                            <img src="assets/bg-cv.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="project-3" data-aos-anchor-placement="top-center">
-                        <a href="https://github.com/EpitechIT2020/T-WEB-501-PAR-5-1-jobboard-omar.abdelrazek/tree/master/Jobboard">
-                            <img src="assets/jobboard.png" alt="">
-                        </a>
+                    <div class="container">
+                        <div class="card">
+                            <h1>Site Vitrine pour DJ</h1>
+                            <p>HTML / CSS</p>
+                            <a href="https://jammsongg.000webhostapp.com/">
+                                <button class="visualisation">Visualisation</button>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h1>CV Website</h1>
+                            <p>HTML / CSS</p>
+                            <a href="http://www.cvssaid.website/">
+                                <button class="visualisation">Visualisation</button>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h1>Jobboard</h1>
+                            <p>Angular / ASPcore.net</p>
+                            <a href="https://github.com/EpitechIT2020/T-WEB-501-PAR-5-1-jobboard-omar.abdelrazek/tree/master/Jobboard">
+                                <button class="visualisation">Visualisation</button>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h1>Dashboard</h1>
+                            <p>React</p>
+                        </div>
+                        <div class="card">
+                            <h1>Carnet d'addresse</h1>
+                            <p>Angular / NodeJS / MangoDB</p>
+                        </div>
+                        <div class="card">
+                            <h1>App Chat</h1>
+                            <p>React / NodeJS / MangoDB</p>
+                        </div>
                     </div>
                 </div>
             </div>

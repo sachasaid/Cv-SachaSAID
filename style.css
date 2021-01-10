@@ -13,14 +13,12 @@ body h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 15px;
-    
 }
 
 p {
     font-size: 18px;
     font: 16px bold 'Source Sans Pro', sans-serif;
 }
-
 
 .arrow-down {
     width: 100%;
@@ -46,7 +44,8 @@ p {
 }
 
 @keyframes arrow-down {
-    0%, 100% {
+    0%,
+    100% {
         top: 50px;
     }
     50% {
@@ -56,6 +55,7 @@ p {
 
 
 /*Section 1*/
+
 .pannel-1 {
     overflow: hidden;
     display: flex;
@@ -69,7 +69,7 @@ p {
     background-color: #252627;
 }
 
-.presentation{
+.presentation {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,14 +87,14 @@ p {
     width: 250px;
 }
 
-h1{
+h1 {
     font-size: 40px;
-
 }
 
 .search {
     color: #2d83cd;
 }
+
 
 /*Section 2*/
 
@@ -127,6 +127,7 @@ h1{
     margin-right: 20%;
 }
 
+
 /*Section 3*/
 
 .pannel-3 {
@@ -158,16 +159,16 @@ h1{
 
 .item img {
     width: 70px;
-    
 }
 
 .item-skill {
-   transition: .5s;
+    transition: .5s;
 }
 
 .item-skill:hover {
     transform: scale(1.1) rotate(30deg) translateZ(0);
 }
+
 
 /* Projects */
 
@@ -176,13 +177,103 @@ h1{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10rem;
+    height: 393px;
+}
+
+.container {
+    position: relative;
+    height: 512px;
+    width: 580px;
+    padding-top: 4em;
+}
+
+.card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #252627;
+    color: white;
+    border-radius: 10px;
+    clip-path: circle(7% at 50% 40%);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.visualisation {
+    border: none;
+    border-radius: 30px;
+    background-color: #b13b3b;
+    padding: 20px 65px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card:nth-child(1) {
+    clip-path: circle(7% at 93% 8%);
+}
+
+.card:nth-child(1):hover {
+    clip-path: circle(70%);
+    z-index: 99;
+}
+
+.card:nth-child(2) {
+    clip-path: circle(7% at 93% 23%);
+}
+
+.card:nth-child(2):hover {
+    clip-path: circle(70%);
+    z-index: 99;
+}
+
+.card:nth-child(3) {
+    clip-path: circle(7% at 93% 38%);
+}
+
+.card:nth-child(3):hover {
+    clip-path: circle(70%);
+    z-index: 99;
+}
+
+.card:nth-child(4) {
+    clip-path: circle(7% at 93% 54%);
+}
+
+.card:nth-child(4):hover {
+    clip-path: circle(70%);
+    z-index: 99;
+}
+
+.card:nth-child(5) {
+    clip-path: circle(7% at 93% 69%);
+}
+
+.card:nth-child(5):hover {
+    clip-path: circle(70%);
+    z-index: 99;
+}
+
+.card:nth-child(6) {
+    clip-path: circle(7% at 93% 84%);
+}
+
+.card:nth-child(6):hover {
+    clip-path: circle(70%);
 }
 
 .projects img {
     width: 100%;
     height: 100%;
 }
-
 
 .project-1 {
     margin-top: 40px;
@@ -203,9 +294,8 @@ h1{
     font-family: avenir roman;
 }
 
-
 .project-1 .project-2 .project-3 {
-   transition: .5s;
+    transition: .5s;
 }
 
 .project-1:hover {
@@ -227,12 +317,13 @@ h1{
 .project-2 a img {
     width: 250px;
 }
+
 .project-3 a img {
     width: 250px;
 }
 
-/*Section 4*/
 
+/*Section 4*/
 
 .pannel-4 {
     display: flex;
@@ -291,7 +382,6 @@ h1{
     background-color: rgba(3, 3, 56, 0.55);
     padding: 5px 0 5px 20px;
     color: white;
-    
 }
 
 .time-line .info::before {
@@ -306,6 +396,7 @@ h1{
     height: 20px;
     z-index: 1;
 }
+
 
 /*Section 5*/
 
@@ -331,8 +422,8 @@ h1{
 
 .contact-logo {
     transition: .5s;
- }
- 
- .contact-logo:hover {
-     transform: scale(1.1) rotate(30deg) translateZ(0);
- }
+}
+
+.contact-logo:hover {
+    transform: scale(1.1) rotate(30deg) translateZ(0);
+}
